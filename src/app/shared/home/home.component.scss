@@ -1,0 +1,72 @@
+#first-slide {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../assets/icons/home-page.svg');
+    background-size: cover;
+}
+
+.homeText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(130vh - 30%);
+    padding: 20px;
+    color: white;
+}
+
+.homeText h1 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 3px 11px rgba(0, 0, 0, .3);
+}
+
+.homeText p {
+    line-height: 1.5em;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+}
+
+#second-slide {
+    height: 100vh;
+    background-color: rgb(74, 98, 132);
+}
+
+#second-slide-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#second-slide-div h2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 10vw;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.expertise-div {
+    margin-top: 5vh;
+    display: flex;
+    height: 40vh;
+    padding: 10px;
+}
+
+.elementor-widget-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.elementor-elements {
+    border: 2px solid white;
+    flex-grow: 1;
+}
+
+.icon-box {
+    display: flex;
+    padding: 15px;
+    justify-content: flex-start;
+
+}

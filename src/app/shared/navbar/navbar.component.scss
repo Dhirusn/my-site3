@@ -1,0 +1,22 @@
+.menu-link {
+    color: white;
+    list-style-type: none;
+    text-decoration-style: none;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 16px;
+}
+
+.navbar-toggler-icon{
+    background-image: url('../../../assets/icons/icons8-menu-96.svg');
+}
+
+.navbar-toggler{
+    border: none;
+}
+#navbarNav:hover .mega-menu-item{
+    opacity: 0.3;
+}
+.mega-menu-item:hover {
+    opacity: 1 !important;
+}
