@@ -2,6 +2,8 @@
 
 /* You can add global styles to this file, and also import other style files */
 
+
+
 :root {
   --dark-navy: #020c1b;
   --navy: #0a192f;
@@ -47,9 +49,7 @@ body {
   min-height: 100%;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--navy);
-  color: var(--slate);
-  font-family: var(--font-sans);
   font-size: var(--fz-xl);
+  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
   line-height: 1.3;
 }
